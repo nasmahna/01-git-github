@@ -28,10 +28,10 @@ user.name=xxxx
 ```
 08)	Setelah selesai mengecek konfigurasi langkah selanjutnya adalah membuat repository di github, namun, karena mulai bulan Juli 2020 Github memberiahukan tentang penggunaan token-based authenthication pengguna wajib mengaktifkan personal acess token untuk mengaksesnya di terminal nanti, Hal ini ditujukan untuk keamanan data pengguna Github.
 Cara mengaktifkan token yaitu:
-  1. Pertama, pergi ke akun Github 
-  2. Kedua, klik icon profil akun di kanan atas kemudian klik setting
-  3. Ketiga, temukanlah developer setting dan klik
-  4. Keempat, klik personal access tokens lalu generate new token
+  > 1. Pertama, pergi ke akun Github 
+  > 2. Kedua, klik icon profil akun di kanan atas kemudian klik setting
+  > 3. Ketiga, temukanlah developer setting dan klik
+  > 4. Keempat, klik personal access tokens lalu generate new token
 09)	Kemudian setelah itu membuat repo di akun yang sudah dibuat, dengan langkah- langkah sebagai berikut:
 
 
