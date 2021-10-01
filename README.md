@@ -33,7 +33,44 @@ Cara mengaktifkan token yaitu:
   > 3. Ketiga, temukanlah developer setting dan klik
   > 4. Keempat, klik personal access tokens lalu generate new token
 09)	Kemudian setelah itu membuat repo di akun yang sudah dibuat, dengan langkah- langkah sebagai berikut:
+  > 1. Pertama, klik icon tambah 
+  > 2. Kedua, klik "New Repository"
+  > 3. Ketiga, akan dibawa kehalaman baru lalu berilah nama untuk repo yang akan dibuat dan create repo
+10) Setelah membuat repo lalu melakukan clone ke local direktori melalui termial yaitu dengan perintah:
+```
+$ git clone https://github.com/nasmahna/01-git-github
+Cloning into '01-git-github'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+Unpacking objects: 100% (3/3), done.
+```
+**Notes:** sesuaikan nama repo dan akun Github akun. Lalu apabila clone dan repo masih kosong dapat diabaikan.
+11) Melakukan perubahan lokal master menjadi main dengan perintah sebagai berikut:
+```
+$ cd awesome-project
+$ git branch -m main
+$
+```
+12) Setelah itu, ubah isi konten dengan perintah dimana setelah mengubah harus melakukan push untuk memberikan update perubahan, yaitu sebagai berikut:
+```
+$ cat README.md 
+$ # 01-git-github%                      
+$ git status
+$ On branch main
+$ Your branch is up to date with 'origin/main'.
 
+$ nothing to commit, working tree clean
+$ git add -A
+$ git commit -m "Add: README.md"
+$ On branch main
+$ Your branch is up to date with 'origin/main'.
+
+$ nothing to commit, working tree clean
+$ git push origin main
+$ Username for 'https://github.com': nasmahna
+$ Password for 'https://nasmahna@github.com': 
+$ Everything up-to-date
+```
 
 
 
