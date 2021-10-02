@@ -155,6 +155,10 @@ usage: git add [<options>] [--] <pathspec>...
   ```
   $ git add .
   ```
+  - Untuk membuat repositori Git kosong atau inisialisasi ulang yang sudah ada:
+  ```
+  $ git init
+  ```
   - Untuk melihat remote yang digunakan/ remote target:
   ```
   $ git remote -v
