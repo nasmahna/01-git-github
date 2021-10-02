@@ -163,7 +163,7 @@ usage: git add [<options>] [--] <pathspec>...
   ```
   $ git commit -m "Add README.md"
   ```
-  -m; switch memungkinkan Anda untuk memasukkan pesan komit pendek dengan tanda kutip ganda.
+  **Note:** -m; switch memungkinkan Anda untuk memasukkan pesan komit pendek dengan tanda kutip ganda.
   - Untuk melakukan sinkronasi perubahan dari Github ke Repo lokal:
    ```
   $ git pull
